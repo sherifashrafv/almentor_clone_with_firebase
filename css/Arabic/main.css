@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Cairo", sans-serif !important;
+  direction: rtl;
+}
+.slick-track,
+.slick-list.draggable {
+  direction: ltr !important;
+}
+i.fa-solid.fa-arrow-right-long,
+i.fa-solid.fa-chevron-right {
+  transform: rotate(180deg);
+}
+.modal-container .modal-content::before {
+  display: none;
+}
+.btn-sign-up span {
+  font-size: 12px;
+}
+.face_book_register_button {
+  font-size: 12px;
+}
+.next_button_disc_section i {
+  transform: rotate(0) !important;
+}
+.profile_menu {
+  left: 3%;
+  right: unset !important ;
+}
+.profile_menu::after {
+  top: -12.7% !important;
+  left: 14% !important;
+  right: unset !important;
+}
+.padding_listed_information {
+  flex-direction: row-reverse !important;
+  justify-content: flex-end;
+}
+.information-user {
+  flex-direction: row-reverse !important;
+}

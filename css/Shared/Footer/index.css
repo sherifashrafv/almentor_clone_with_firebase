@@ -1,0 +1,103 @@
+.footer_parent {
+  padding: 76px 0 40px;
+  background: var(--footer-background-color);
+}
+.footer_logo_icon {
+  width: 52px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center center;
+}
+.links_footer {
+  color: var(--map-numbers-count);
+}
+.link_footer_parent li {
+  margin-bottom: 16px;
+  font-size: 17px;
+  color: var(--map-numbers-count) !important;
+  font-weight: 500 !important;
+}
+.link_footer_parent li:first-child {
+  margin-top: 16px;
+}
+.footer_explore {
+  font-size: 22px;
+  margin-bottom: 22px;
+  color: var(--footer-upper-title-color);
+}
+.instructor-text {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--map-numbers-count) !important;
+}
+.btn_subscribe {
+  padding: 8px 18px;
+  margin-bottom: 32px;
+  border: 1px solid #ff907e;
+  color: #ff907e;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card_footer_apps {
+  width: 175px;
+  height: 200px;
+  background: var(--footer-app-upper-bg-color);
+  border-radius: 10px;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+}
+.our-text-footer {
+  color: var(--user-card-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.find_footer {
+  color: #f0f8ff;
+}
+.kalemat_pic {
+  width: 80px !important;
+  height: 35px !important;
+  align-self: flex-end;
+}
+.instructor-text {
+  color: var(--map-numbers-count);
+}
+.footer_custome_size {
+  align-items: flex-start;
+}
+.footer_social_kalmat {
+  justify-content: flex-end;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .link_footer_parent {
+    text-align: center;
+  }
+  .footer_custome_size {
+    align-items: center !important;
+  }
+  .footer_social_kalmat {
+    justify-content: center;
+  }
+  .kalemat_pic {
+    align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .link_footer_parent {
+    text-align: center;
+  }
+  .footer_custome_size {
+    align-items: center !important;
+  }
+  .footer_social_kalmat {
+    justify-content: center;
+  }
+  .kalemat_pic {
+    align-self: center;
+  }
+}

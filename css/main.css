@@ -1,0 +1,75 @@
+/* imports */
+@import url("./Nav/index.css");
+@import url("./Home/main/index");
+@import url("./Home/worldMap/index");
+@import url("./Shared/Footer/index");
+@import url("./Admin/adminHeader.css");
+@import url("./User/BecomeMentor/index");
+@import url("./Admin/yourCourses.css");
+@import url("./User/instractorPage/style.css");
+@import url("./Components/Intrestes/index.css");
+@import url("./Components/SubscribePrice/index.css");
+@import url("./Admin/CoursesDetails.css");
+@import url("./User/SignUp/index.css");
+@import url("./User/subscribe/index.css");
+
+/* fonts */
+@font-face {
+  font-family: "JF-Flat";
+  src: url("../Fonts/ArbFonts.com-(5)/ArbFONTS-JF-Flat-regular-1.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("http://fonts.googleapis.com/earlyaccess/lateef.css");
+
+/* global-styles */
+body {
+  background: #000 !important;
+  color: white !important;
+  font-family: "Roboto", "sans-serif" !important;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+::-webkit-scrollbar {
+  background: #252a2a;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+}
+#nprogress .bar {
+  height: 4px !important;
+  background: #eb2027 !important;
+  z-index: 9999999999999;
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 97% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 98% !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 98% !important;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+/* .h-100vh {
+  height: 100vh;
+} */

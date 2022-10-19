@@ -1,0 +1,287 @@
+.simplified-subscription-page__overlay {
+  padding: 60px 0 98px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(10, 141, 177, 0),
+      rgba(0, 83, 107, 0.03) 14%,
+      rgba(0, 58, 74, 0.27) 30%,
+      rgba(0, 36, 45, 0.6) 53%,
+      rgba(0, 14, 18, 0.88) 80%,
+      #000
+    ),
+    url("../../../../src/assets/Images/subscribe/short-subscription-bg-dark.47910b5a246fa1add323.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: repeat;
+}
+.simplified-subscription-page__plans-section__title {
+  color: #eee;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.simplified-subscription-page__plans-section__subtitle {
+  width: 82%;
+  color: #eee;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.subscribe_plans_wrapper div {
+  color: #eee;
+  width: 210px;
+  height: 291px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #000;
+  cursor: pointer;
+}
+.subscribe_plans_wrapper div.active {
+  outline: 3px solid #85cddc;
+}
+.simplified-subscription-plan-card__title.yearly {
+  padding: 42px 30px 13px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #0a8db166 !important;
+  margin-bottom: 20px;
+}
+.simplified-subscription-plan-card__title.month {
+  padding: 42px 30px 13px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3b424280 !important;
+  margin-bottom: 20px;
+}
+.simplified-subscription-plan-card__ribbon {
+  position: absolute !important;
+  top: 0;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  background-color: #afe0e799 !important;
+  font-size: 14px;
+  color: #fff !important;
+  padding: 4px 0;
+  text-align: center;
+  height: 28px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 10px !important;
+}
+.simplified-subscription-plan-card__body {
+  height: 182px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 0 32px;
+}
+.simplified-subscription-plan-card__final-price.yearly {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #85cddc;
+}
+.simplified-subscription-plan-card__currency.yearly {
+  font-size: 16px;
+  color: #eee !important;
+  font-weight: 500;
+}
+.simplified-subscription-plan-card__description {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.simplified-subscription-plan-card__billing-note.yearly {
+  color: #afe0e7;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+.simplified-subscription-plan-card__billing-note.month {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  color: #d4d4d4;
+}
+.simplified-subscription-plan-card__select-btn.btn-outline-light {
+  border-color: #eee;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 9px !important;
+  padding-bottom: 8px !important;
+  font-weight: bold;
+}
+.simplified-subscription-plan-card__billing-note {
+  color: #d4d4d4;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-top: 1.3rem;
+}
+.simplified_copoon {
+  width: 80%;
+}
+.simplified_copoon input {
+  color: #a1a1a1;
+  background-color: #3b4242 !important;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px !important;
+  font-size: 14px;
+}
+.simplified-subscription-page__form_button {
+  width: fit-content;
+  font-size: 14px;
+  padding: 4px 12px !important;
+  border-color: #a3a8a8;
+  background: transparent;
+  height: 30px;
+  border-radius: 0.25rem;
+  color: #a3a8a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+}
+.btn.btn-danger.plan-button {
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: #eb2027 !important;
+  width: 80%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.simplified-subscription-page-benefits__container {
+  padding: 40px 40px 40px 44px;
+  border-radius: 10px;
+  background: #00000042;
+  width: 100%;
+}
+.simplified-subscription-page-benefits__what-you-get_title {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #eee;
+}
+.simplified-subscription-page-benefits__what-you-get__item {
+  margin-top: 0;
+  padding-top: 11px;
+  border-top: 1px solid #5d6666;
+  border-bottom: 1px solid #5d6666;
+  padding: 18px 0;
+}
+.simplified-subscription-page-benefits__what-you-get__item-title {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #d4d4d4;
+}
+.simplified-subscription-page-benefits__what-you-get__item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.simplified-subscription-page-benefits__payment-methods {
+  margin-top: 56px;
+}
+.simplified-subscription-page-benefits__payment-methods h3 {
+  font-size: 20px;
+  color: #a1a1a1;
+  margin-bottom: 11px;
+}
+.simplified-subscription-page-benefits__payment-methods_row {
+  display: flex;
+}
+.simplified-subscription-page-benefits__payment-method-item {
+  padding: 18px 11px;
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  width: 114px;
+  height: 65px;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+.simplified-subscription-page-benefits__payment-method-item img {
+  width: 100%;
+  height: 18px;
+  object-fit: contain;
+}
+.simplified-subscription-page-benefits__payment-methods__note {
+  color: #afe0e7;
+  font-size: 12px;
+  margin: 30px 0 0;
+}
+.subscribe_plans_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  margin-top: 3rem !important;
+}
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscribe_plans_wrapper {
+    justify-content: center !important;
+  }
+  .simplified-subscription-page__overlay {
+    background-image: linear-gradient(
+      180deg,
+      rgba(10, 141, 177, 0),
+      rgba(0, 83, 107, 0.03) 14%,
+      rgba(0, 58, 74, 0.27) 30%,
+      rgba(0, 36, 45, 0.6) 53%,
+      rgba(0, 14, 18, 0.88) 80%,
+      #000
+    );
+  }
+  .simplified-subscription-page__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .simplified-subscription-page-benefits__container {
+    background: #0000009c;
+  }
+}
+@media (max-width: 768px) {
+  .subscribe_plans_wrapper {
+    justify-content: center !important;
+  }
+  .simplified-subscription-page__overlay {
+    background-image: linear-gradient(
+      180deg,
+      rgba(10, 141, 177, 0),
+      rgba(0, 83, 107, 0.03) 14%,
+      rgba(0, 58, 74, 0.27) 30%,
+      rgba(0, 36, 45, 0.6) 53%,
+      rgba(0, 14, 18, 0.88) 80%,
+      #000
+    );
+  }
+  .simplified-subscription-page__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .simplified-subscription-page-benefits__container {
+    background: #0000009c;
+  }
+}
+
+@media (max-width: 600px) {
+  .subscribe_plans_wrapper {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    gap: 31px !important;
+  }
+}

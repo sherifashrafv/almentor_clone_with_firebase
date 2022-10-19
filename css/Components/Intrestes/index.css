@@ -1,0 +1,134 @@
+.interests_section {
+  background: #141717;
+  padding: 48px 58px 48px 50px;
+  border-radius: 10px;
+  align-items: stretch;
+  margin: 0 71px;
+}
+.interests_section > div {
+  width: calc(100% / 2);
+}
+.describe_intrsted {
+  margin-top: 20px;
+}
+.describe_intrsted img {
+  width: 249px;
+  height: 160px;
+  margin-top: 20px;
+}
+.describe_intrsted h4 {
+  font-size: 28px;
+  color: var(--map-numbers-count);
+}
+.describe_intrsted h5 {
+  color: #a1a1a1;
+  font-size: 20px;
+  line-height: 1.6;
+  width: 326px;
+}
+.skils_interesting-in {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  gap: 13px;
+}
+.skill_checkboxes_add {
+  width: fit-content;
+  background: #252a2a;
+  font-size: 14px;
+  border-radius: 19px;
+  padding: 12px;
+  cursor: pointer;
+}
+.skill_checkboxes_add.active {
+  background: #ff907e;
+}
+.skill_checkboxes_add label {
+  cursor: pointer;
+}
+
+.check_out-box {
+  display: none;
+}
+.intersted-button {
+  justify-content: flex-end;
+}
+.btn_btn-saveIntersted {
+  padding: 7px 32px;
+  opacity: 0.65;
+  border: 1px solid #a7a9aa;
+  color: #a7a9aa;
+  background: transparent;
+  cursor: default !important;
+  border-radius: 5px;
+}
+.btn_btn-saveIntersted.active {
+  opacity: 1;
+  border-color: white !important;
+  color: white !important;
+  transition: 0.3s ease-in-out;
+  cursor: pointer !important;
+}
+
+@media (max-width: 600px) {
+  .interests_section {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .interests_section {
+    background: #141717;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: stretch;
+    /* margin: 0 71px; */
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+  .interests_section > div {
+    width: 100%;
+    align-items: center;
+  }
+  .skils_interesting-in {
+    margin-top: 3rem;
+    height: 300px;
+    overflow-y: scroll;
+    justify-content: center;
+  }
+  .intersted-button {
+    justify-content: center;
+  }
+}
+@media (max-width: 1223px) {
+  .describe_intrsted h5 {
+    width: fit-content;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .interests_section {
+    padding: 30px 43px;
+    margin: 0;
+  }
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+  .interests_section > div {
+    width: 100%;
+  }
+  .skils_interesting-in {
+    overflow-y: scroll;
+    margin-top: 4rem;
+    height: 290px;
+  }
+}
+@media (min-width: 992px) {
+}

@@ -1,0 +1,102 @@
+.subscribe_with_price {
+  background: rgba(10, 141, 177, 0.2);
+  padding: 35px;
+  margin: 50px 0;
+  border-radius: 7px;
+  margin: 0 71px;
+}
+.subscribe_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subscribe_title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 1.32;
+  font-size: 22px;
+  color: #fff;
+}
+.subscribe_description p {
+  font-size: 16px;
+  color: #a1a1a1;
+  margin-bottom: 13px;
+}
+.subscribe_title span {
+  font-size: 20px;
+  color: #f3f1f1;
+  font-weight: 400;
+  line-height: 1.82;
+}
+.simplified-subscription-card.ng-star-inserted_s {
+  background: #000000cc;
+  width: 210px;
+  min-height: 139px;
+  max-height: 139px;
+  border-radius: 10px;
+}
+.simplified-subscription-card__title {
+  padding: 7px 0 7px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #3b424280;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.simplified-subscription-card__body {
+  padding: 11px 20px 15px;
+  min-height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.simplified-subscription-card__final-price.ng-star-inserted {
+  margin-bottom: 4px;
+  font-weight: 700;
+  color: #eee !important;
+  font-size: 20px;
+  display: flex;
+  align-items: baseline;
+}
+.simplified-subscription-card__title.yearly {
+  background: #587477;
+}
+@media (max-width: 1117px) {
+  .subscribe_wrapper {
+    align-items: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .subscribe_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .subscribe_description {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .subscribe_with_price {
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 1223px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscribe_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .subscribe_description {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .subscribe_with_price {
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+}

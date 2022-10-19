@@ -1,0 +1,22 @@
+.courses_empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.courses_empty h2 {
+  margin: 35px 0 10px;
+  font-size: 21px;
+  color: var(--map-numbers-count);
+}
+.courses_empty p {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+.add-Course {
+  background: #ff0000 !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+}

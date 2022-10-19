@@ -1,0 +1,21 @@
+.img_logo_admin {
+  width: 40px;
+  height: 40px;
+  object-fit: scale-down;
+  -o-object-position: center;
+  object-position: unset;
+}
+.logo_text_admin {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.instractor-image img {
+  object-fit: cover;
+  object-position: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+

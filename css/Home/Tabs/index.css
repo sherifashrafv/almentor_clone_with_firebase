@@ -1,0 +1,44 @@
+.tabs_vedios {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.tabs-parent li {
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.tabs-parent li.active {
+  font-weight: bolder;
+  position: relative;
+}
+.tabs-parent li.active::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: red;
+  border-radius: 7px;
+  position: absolute;
+  bottom: -33%;
+  left: 0;
+}
+@media (max-width: 600px) {
+  .tabs-parent li {
+    font-size: 18px;
+  }
+  .tabs-parent {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .tabs-parent {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  .tabs-parent li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+}

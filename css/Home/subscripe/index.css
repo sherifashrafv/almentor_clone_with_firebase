@@ -1,0 +1,207 @@
+.subscribe {
+  background-image: linear-gradient(
+      0deg,
+      rgba(10, 141, 177, 0),
+      rgba(0, 83, 107, 0.03) 86%,
+      rgba(0, 58, 74, 0.27) 0,
+      rgba(0, 36, 45, 0.6) 0,
+      rgba(0, 14, 18, 0.88) 0,
+      #000
+    ),
+    url("../../../../src/assets/Images/Home/supscription-home-banner-bg.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background-blend-mode: hue;
+}
+.home_subscribe {
+  padding-top: 236px;
+  padding-bottom: 100px;
+}
+.home_subscribe_title {
+  font-family: "Roboto", "sans-serif";
+  font-size: 40px;
+  line-height: 1.26;
+  margin-bottom: 12px;
+  font-weight: 700;
+  line-height: 1.26;
+  padding-bottom: 20px;
+  color: var(--home-subscribe-title-color);
+}
+.home_subscribe_subtitle {
+  font-size: 32px;
+  line-height: 1.34;
+  color: #ff907e;
+  font-weight: 400;
+  font-family: "Roboto", "sans-serif";
+}
+.subscribe_parent {
+  padding-bottom: 192px;
+  padding-top: 151px;
+}
+.btn_sbuscribe {
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  width: 116px;
+  text-decoration: none;
+  height: 35px;
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 143px;
+}
+.home__subscribe-text {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Roboto", "sans-serif";
+  color: var(--map-text-color);
+}
+.subscription-details {
+  width: 50%;
+}
+
+.card-subscribe {
+  display: flex;
+  flex-direction: row;
+}
+.card-subscribe > div {
+  width: 306px;
+  height: 356px;
+  background: #000;
+  border-radius: 10px;
+  position: relative;
+}
+.img_subscribe {
+  width: 154px;
+  height: 130px;
+}
+.price_subscribe_parent {
+  font-size: 35px;
+  color: var(--subscribe-card-yearly-text-color);
+  font-weight: 800;
+}
+.currency_subscribe {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px !important;
+  font-weight: 500;
+  margin-top: 17px !important;
+}
+
+.per_mounth_text {
+  font-size: 19px;
+  font-weight: 300 !important;
+  margin-top: 1px;
+  color: var(--subscribe-card-yearly-text-color);
+}
+.mounth_plan_sbuscribe_text {
+  font-size: 20px;
+  color: #ff907e;
+}
+.ng-star-inserted {
+  color: #42b4d4 !important;
+}
+.subscription-card-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: rgba(10, 141, 177, 0.7019607843137254);
+  border-radius: 15px 15px 1px 1px;
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn.btn-danger.subscribe_link {
+  padding: 0 28px;
+  background: #eb2027;
+  width: 200px;
+  height: 50px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+.big_sale_subscription-card {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--map-text-color);
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .subscription-details {
+    flex-direction: column !important;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 8rem 0;
+  }
+  .card-subscribe {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .subscription-details {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 8rem 0;
+  }
+  .subscribe_card img {
+    display: none;
+  }
+  .card-subscribe > div {
+    width: 199px;
+    height: 220px;
+  }
+  .card-subscribe {
+    justify-content: center;
+  }
+  .subscription-details {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+  .link_subscribe {
+    justify-content: center !important;
+  }
+  .body_world_content .map_counter {
+    font-size: 40px;
+  }
+  p.map__text span {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscription-details {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+  .card-subscribe {
+    justify-content: center !important;
+  }
+  .subscribe_card img {
+    display: none;
+  }
+  .card-subscribe > div {
+    width: 199px;
+    height: 220px;
+  }
+  .body_world_content .map_counter {
+    font-size: 40px;
+  }
+  p.map__text span {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 992px) {
+}
